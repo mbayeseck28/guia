@@ -1,14 +1,15 @@
 import React from 'react'
+import '../Composants/Assets/Css/styles.css'
 
 const Footer = () => {
   return (
     <div className="bg-white py-5 mt-5">
         <div className='container py-5'>
             <div className="row"> 
-                <div className=" col-ms-4 d-flex flex-column align-items-center ">
-                    <div className="list ">
-                        <ul className=''>
-                            <li><p><a className='text-secondary fw-semibold' href="#test">Home</a></p></li>
+                <div className="d-flex flex-column align-items-center ">
+                    <div className="list bg-succes p-0">
+                        <ul className=' me-4'>
+                            <li className=''><h5><a className='text-secondary fw-semibold' href="#test">Home</a></h5></li>
                             <li><h5><a className='text-secondary fw-semibold' href="#test">Changelog </a></h5></li>
                             <li><h5><a className='text-secondary fw-semibold' href="#test">Contact </a></h5></li>
                         </ul>

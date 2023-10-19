@@ -2,7 +2,7 @@
     background: url('../Images/bgBlue.jpg' );
     height: 250px;
 }
-ul{
+ul.navbar-nav{
     display: flex;
     gap: 1em;
 }
