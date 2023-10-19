@@ -1,0 +1,33 @@
+import React from 'react'
+
+const Footer = () => {
+  return (
+    <div className="bg-white py-5 mt-5">
+        <div className='container py-5'>
+            <div className="row"> 
+                <div className=" col-ms-4 d-flex flex-column align-items-center ">
+                    <div className="list ">
+                        <ul className=''>
+                            <li><p><a className='text-secondary fw-semibold' href="#test">Home</a></p></li>
+                            <li><h5><a className='text-secondary fw-semibold' href="#test">Changelog </a></h5></li>
+                            <li><h5><a className='text-secondary fw-semibold' href="#test">Contact </a></h5></li>
+                        </ul>
+                    </div>
+                    <div className="icons mb-3">
+                        <a href="#test"><i class="fa fa-twitter text-secondary"></i></a>
+                        <a href="#test"><i class="fa fa-facebook text-secondary"></i></a>
+                        <a href="#test"><i class="fa fa-instagram text-secondary"></i></a>
+                        <a href="#test"><i class="fa fa-pinterest text-secondary"></i></a>
+                    </div>
+                    <div>
+                        <p className='text-secondary'>Made by a Driffer in Antigua Guatemala</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+  )
+}
+
+export default Footer

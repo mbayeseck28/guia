@@ -1,0 +1,12 @@
+.ico{
+    /* font-size: 100px; */
+    color: blue;
+}
+.gauche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .gauche i{
+    
+} */

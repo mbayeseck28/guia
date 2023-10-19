@@ -1,0 +1,13 @@
+.header{
+    background: url('../Images/bgBlue.jpg' );
+    height: 250px;
+}
+ul{
+    display: flex;
+    gap: 1em;
+}
+@media screen and (max-width: 768px) {
+    .header{
+        height: 550px;
+    }
+}

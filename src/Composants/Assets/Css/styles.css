@@ -1,0 +1,26 @@
+/* .gauche, .droite{
+    display: flex;
+} */
+.titr{
+    font-size: small;
+}
+#gaucheI{
+    font-size: 40px;
+}
+
+
+/* Foot Component reut */
+.list ul, .icons{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.list a{
+    text-decoration: none;
+}
+.icons i{
+    font-size: 20px;
+}
